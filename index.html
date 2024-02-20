@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Clash</title>
 
+    <!-- styles css link -->
+    <link rel="stylesheet" href="css/styles.css">
+
     <!-- Tailwind and DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,6 +18,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'clash-bg': 'rgb(30, 30, 30)',
                     }
                 }
             }
@@ -22,21 +26,27 @@
     </script>
 </head>
 
-<body>
-    <!-- section: home -->
-    <section>
+<body class="bg-clash-bg min-h-screen bg-[url(./images/background.png)] bg-no-repeat bg-center">
+    <main>
+        <!-- section: home -->
+        <section class="min-h-screen flex justify-center items-center">
+            <div class="text-white gap-10 flex flex-col items-center">
+                <h1 class="font-anton text-7xl font-normal uppercase">alphabet clash pro</h1>
+                <p class="font-poppins">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+                <button class="btn">Play Now</button>
+            </div>
+        </section>
 
-    </section>
+        <!-- section: playground -->
+        <section>
 
-    <!-- section: playground -->
-    <section>
+        </section>
 
-    </section>
+        <!-- section: score -->
+        <section>
 
-    <!-- section: score -->
-    <section>
-
-    </section>
+        </section>
+    </main>
 
 </body>
 
